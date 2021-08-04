@@ -177,6 +177,29 @@ div header {
     right: 300px;
 }
 
+
+.icons a img {
+    height: 8em;
+    width: 8em;
+}
+
+.icons a img.active{
+    position: relative;
+    animation: mymove 5s infinite;
+}
+
+/* animation */
+
+@keyframes mymove {
+    0%   {top: 0px;}
+    25%  {top: 20px;}
+    50%  {top: 0px;}
+    75%  {top: 20px}
+    100% {top: 0px;}
+  }
+
+/* media queries */
+
 @media(max-width: 991px) {
     .showcase, div header {
         padding: 40px;
