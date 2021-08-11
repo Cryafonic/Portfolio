@@ -188,6 +188,37 @@ div header {
     animation: mymove 5s infinite;
 }
 
+.resize div img {
+    height: 50em;
+    width: 30em;
+}
+
+.sideArrow {
+    filter: invert(1);
+    height: 3em;
+    width: 5em;
+}
+
+.iconAlign {
+    display: flex;
+    flex-direction: column;
+}
+
+.iconAlign div{
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.emailHover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.emailHover:hover {
+    color: #03a9f4;
+}
+
 /* animation */
 
 @keyframes mymove {
@@ -203,6 +234,11 @@ div header {
 @media(max-width: 991px) {
     .showcase, div header {
         padding: 40px;
+    }
+
+    .resize div img {
+        height: 30em;
+        width: 30em;
     }
 
 }
