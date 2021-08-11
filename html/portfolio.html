@@ -6,6 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <link rel="stylesheet" href="../CSS/portfolio.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
     <title>Brendon's Portfolio</title>
   </head>
   <body>
@@ -17,57 +27,53 @@
       <div class="overlay"></div>
     </div>
 
-    <section class="section section-light">
+    <section id="education" class="section section-light">
       <h2>Education</h2>
       <h3>HyperionDev</h3>
-      <p>full stack web dev</p>
+      <p>Full Stack Web Development</p>
       <p>2021-2021</p>
     </section>
 
     <section class="section section-dark">
       <h3>CTU Training solutions</h3>
-      <p>IT solutions support</p>
+      <p>IT Technical Support</p>
       <p>2017-2017</p>
     </section>
 
     <div class="pimg2">
-      <div class="ptext">
-        <span class="border"> Brendon's Portfolio </span>
-      </div>
+      <div class="ptext"></div>
       <div class="overlay"></div>
     </div>
 
-    <section class="section section-light">
-      <h2>Work experience</h2>
+    <section id="workExperience" class="section section-light">
+      <h2>Work Experience</h2>
       <h3>Orderwise</h3>
       <p>Support engineer</p>
       <p>2019-current</p>
-      <p>duties</p>
+      <p>Customer resolution and Technical support is a few of the responsibilities I am trusted with.</p>
     </section>
 
     <section class="section section-dark">
       <h3>True Technologies</h3>
-      <p>Workshop technician</p>
+      <p>Workshop Technician</p>
       <p>2019-2019</p>
-      <p>duties</p>
+      <p>Working as a workshop technician required me to resolve technical issues as well as work with customers.</p>
     </section>
 
     <section class="section section-light">
       <h3>Digital Horizon</h3>
-      <p>IT field technician</p>
+      <p>IT Field Technician</p>
       <p>2018-2018</p>
-      <p>duties</p>
+      <p>I was trusted with on-site and remote support. <br/>Manageing server , resolving end-user issues and mantinance is only the few things I handled on a daily basis.</p>
     </section>
 
     <div class="pimg3">
-      <div class="ptext">
-        <span class="border"> Brendon's Portfolio </span>
-      </div>
+      <div class="ptext"></div>
     </div>
 
-    <section class="section section-dark">
+    <section id="skills" class="section section-dark">
       <h2>Skills</h2>
-      <h3>full stack web development</h3>
+      <h3>Full Stack Web Development</h3>
       <div class="icons">
         <a><img src="../media/image_skills/bootstrap.png" /></a>
         <a><img src="../media/image_skills/express.png" /></a>
@@ -80,37 +86,171 @@
         <a><img src="../media/image_skills/react.png" /></a>
         <a><img src="../media/image_skills/mongodb.png" /></a>
       </div>
-      <h3>full stack mobile development</h3>
-      <div class="icons">
-        <a><img src="../media/image_skills/flutter.png" /></a>
-        <a><img src="../media/image_skills/firebase.png" /></a>
-      </div>
     </section>
 
     <div class="pimg4">
-      <div class="ptext">
-        <span class="border"> Brendon's Portfolio </span>
-      </div>
+      <div class="ptext"></div>
       <div class="overlay"></div>
     </div>
 
-    <section class="section section-light">
+    <section id="projects" class="section section-light">
       <h2>Projects</h2>
-      <!-- display projects in carousel view with bootstrap  -->
+      <div
+        id="carouselExampleFade"
+        class="carousel carousel-dark slide carousel-fade"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner resize">
+          <div class="carousel-item active">
+            <img
+              src="../media/image_projects/login.PNG"
+              class="d-block w-100"
+              alt="loginGif"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Doctors R us</h5>
+              <p>
+                An appointment system for doctors, admins and patients. The
+                project was build to teach front and back-end development
+                technics
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="../media/image_projects/Itunes_search.PNG"
+              class="d-block w-100"
+              alt="Itunes_search"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Ituens search</h5>
+              <p>
+                Using a thired party API. The search app is meant to search any
+                type media that is specified by the user.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="../media/image_projects/minesweeper.PNG"
+              class="d-block w-100"
+              alt="minesweeper"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Minsweeper</h5>
+              <p>
+                I build it, But just couldn't win at it. The age old game wasn't
+                build to teach front or back-end development technics but more
+                game logic and the different ways of development.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="../media/image_projects/react_calculator.PNG"
+              class="d-block w-100"
+              alt="React_calculator"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>React calculator</h5>
+              <p>
+                Like all developer know. If you start a new framwork you will do
+                two thing. Write code that displays "Hello, world!" and a
+                classic calculator. This is my first calculator in Reactjs.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="../media/image_projects/todoList.PNG"
+              class="d-block w-100"
+              alt="todoList"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Todo list</h5>
+              <p>
+                Always struggled to remember what things to do next. Then I
+                decided on build a handy To do List app. Also improved my skill
+                with front-end development.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="../media/image_projects/weather_app.PNG"
+              class="d-block w-100"
+              alt="weather_app"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Weather app</h5>
+              <p>
+                Yes! I know I could just use my phone to check the weather or I
+                could build my own thing. here I'm using a third party API to
+                display the weather of any city.
+              </p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleFade"
+          data-bs-slide="prev"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="sideArrow bi bi-caret-left-fill"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"
+            />
+          </svg>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleFade"
+          data-bs-slide="next"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="sideArrow bi bi-caret-right-fill"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"
+            />
+          </svg>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     </section>
 
     <div class="pimg3">
-      <div class="ptext">
-        <span class="border"> Brendon's Portfolio </span>
-      </div>
+      <div class="ptext"></div>
     </div>
 
-    <section class="section section-dark">
-      <h2>contact</h2>
-      <h3>contact number:</h3>
-      <p>num</p>
-      <h3>email:</h3>
-      <p>email</p>
+    <section id="contact" class="section section-dark">
+      <h2>Contact</h2>
+      <div class="iconAlign">
+        <div>
+          <i class="material-icons-outlined">smartphone</i>
+          <p>060 519 7406</p>
+        </div>
+        <div>
+          <i class="material-icons-outlined">email</i>
+          <a class="emailHover" href="mailto:bvdn95@gmail.com">Bvdn95@gmail.com</p>
+        </div>
+      </div>
+
       <ul class="social">
         <li>
           <a href="https://github.com/Cryafonic"
@@ -168,12 +308,20 @@
 
     <div class="menu">
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#workExperience">Work experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </div>
 
     <script src="../JavaScript/portfolio.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
